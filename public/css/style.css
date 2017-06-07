@@ -89,7 +89,7 @@ ul {
   font-family: 'Raleway', sans-serif;
   margin-top: 5%;
 }
-#intro hr, #skills hr, #portfolio hr, #testimonials hr, #contact hr {
+#intro hr, #skills hr, #portfolio hr, #contact hr {
   width: 10%;
   border: 1px solid #59a5d8;
   color: black;
@@ -256,15 +256,6 @@ ul {
   font-size: 0.8em;
   border-radius: 5px;
   display: inline-block;
-}
-.modal-top-icons {
-  float: right;
-}
-.modal-top-icons, .modal-top-icons:hover {
-  font-size: 2em;
-  padding: 0px 10px;
-  color: black;
-  cursor: pointer;
 }
 
 #contact .form-control {
