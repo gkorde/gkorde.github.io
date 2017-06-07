@@ -1,10 +1,587 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!--<title>Gaurav Korde | Web Developer</title>-->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">-->
+    <!--<link href="style.css" rel="stylesheet" type="text/css" media="all">-->
+<!--</head>-->
+<!--<body>-->
+<!--<section id="title">-->
+    <!--Title and description goes here-->
+    <!--<header>-->
+        <!--<div id="">-->
+            <!--<div id="container-fluid">-->
+                <!--<h1>GAURAV KORDE</h1>-->
+                <!--<hr />-->
+                <!--<h1>FRONT END DEVELOPER</h1>-->
+                <!--<div>-->
+                    <!--<p>Web Developer by day, soccer enthusiast rest of the time.</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</header>-->
+
+<!--</section>-->
+
+<!--<section id="skills">-->
+    <!--Skill set goes here-->
+<!--</section>-->
+
+<!--<section id="projects">-->
+    <!--Project work-->
+<!--</section>-->
+
+<!--<section id="contact">-->
+    <!--Contact details-->
+<!--</section>-->
+<!--<footer>-->
+    <!--&copy;2017-->
+    <!--Gaurav Korde-->
+<!--</footer>-->
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Gaurav Korde | Web Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaurav Korde | Full Stack Developer</title>
+    <link rel="stylesheet"  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script  src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script  src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script  src="public/js/lib/typed.min.js"></script>
+    <script  src="public/js/lib/scrollreveal.min.js"></script>
+    <link  href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link  href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="public/css/style.css" rel="stylesheet">
+    <link  href="public/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-Welcome to Gaurav Korde's personal website
+<nav id="navbar" class="navbar navbar-custom navbar-fixed-top" data-spy="affix" data-offset-top="500" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#intro">Harsha Nooka</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navigation">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#intro">Intro</a>
+                </li>
+                <li><a href="#skills">My Stack</a>
+                </li>
+                <li><a href="#portfolio">Portfolio</a>
+                </li>
+                <li><a href="#testimonials">Testimonials</a>
+                </li>
+                <li><a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+
+    </div>
+</nav>
+
+<div id="page-loader"><span class="page-loader-gif">Loading...</span></div>
+
+<header id="intro">
+    <div class="header-content-wrap">
+        <div class="header-content">
+            <h1>Gaurav Korde</h1>
+            <hr />
+            <h1>FULL STACK DEVELOPER</h1>
+            <div id="typed-strings">
+                <p class="animated-typing">Hey there! I'm Gaurav Korde. I design websites.</p>
+            </div>
+            <div id="animated-typing-wrapper">
+                <span class="animated-typing typed"> </span>
+            </div>
+
+            <div class="gh-btn-wrapper">
+                <a href="./resume.pdf" class="gh-btn gh-btn-download" download>Download Resume</a>
+                <a href="#skills" class="gh-btn gh-btn-know">Find Out More</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="skills" class="container-fluid">
+    <div class="row">
+        <div>
+            <h1 class="section-title">My Stack</h1>
+            <hr />
+
+            <div class="col-sm-4 text-center sr-stack">
+                <div class="skills-wrap">
+                    <i class="fa fa-3x fa-code "></i>
+                    <h3 class="subsection-title">Front end</h3>
+                    <ul>
+                        <li>
+                            <span class="skillbar-title">HTML</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:85%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">CSS</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:80%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">Responsive Design</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:90%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">Javascript</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:85%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">ReactJS</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:50%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">AngularJS</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:75%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">SLDS</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:70%">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-center sr-stack">
+                <div class="skills-wrap">
+                    <i class="fa fa-3x fa-database"></i>
+                    <h3 class="subsection-title">Back end</h3>
+
+                    <ul>
+                        <li>
+                            <span class="skillbar-title">C</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:60%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">Java</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:80%">
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-center sr-stack">
+                <div class="skills-wrap">
+                    <i class="fa fa-3x fa-cogs"></i>
+                    <h3 class="subsection-title">Miscelleneous</h3>
+
+                    <ul>
+                        <li>
+                            <span class="skillbar-title">GIT</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:90%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">SVN</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:70%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">UNIX</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:70%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">Server Hosting</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:70%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">Unit Testing</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:60%">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skillbar-title">SEO</span>
+                            <div class=" skillbar progress">
+                                <div class="progress-bar" style="width:80%">
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio" class="container-fluid">
+    <div class="row">
+        <div>
+            <h1 class="section-title">Portfolio</h1>
+            <hr />
+
+            <div class="work-tiles-wrapper">
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/leadership.png" />
+                        <div class="work-tile-info" data-toggle="modal" data-target="#leadershipModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Leadership academy</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">AngularJS</span>
+                                <br /> Back-end: <span class="work-tag">NodeJS</span>&nbsp;<span class="work-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="leadershipModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Leadership academy</h2>
+                                    <a href="https://github.com/harshanooka/The-Leadership-Academy" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
+                                    <a href="http://theleadershipacademy.us/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/leadership.png" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/limber.png" />
+                        <div class="work-tile-info" data-toggle="modal" data-target="#limberModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Limber</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">AngularJS</span>&nbsp;<span class="work-tag">Bootstrap</span>&nbsp;<span class="work-tag">jQuery</span>
+                                <br /> Back-end: <span class="work-tag">NodeJS</span>&nbsp;<span class="work-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="limberModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Limber - Story Management tool</h2>
+                                    <a href="https://github.com/stackroute/frAgile" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
+                                    <a href="http://limber.stackroute.in/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/limber.png" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/movieflix.png" />
+                        <div class="work-tile-info" data-toggle="modal" data-target="#movieflixModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Movieflix</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">AngularJS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="movieflixModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Movieflix</h2>
+                                    <a href="https://github.com/harshanooka/movieflix" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/movieflix.png" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/wfg.PNG" height="184px"/>
+                        <div class="work-tile-info" data-toggle="modal" data-target="#pulseModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Wells Fargo Interactive Demo</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">AngularJS, Angular Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pulseModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Wells Fargo Retirement Interactive Demo</h2>
+                                    <a href="https://retirement.wf.com/digital/#/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/wfg.PNG" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/comcast.PNG" height="184px"/>
+                        <div class="work-tile-info" data-toggle="modal" data-target="#agricultureModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Xfniity PP Portal</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">React</span>
+                                <br /> Back-end: <span class="work-tag">NodeJS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="agricultureModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Xfinity Property Professionals portal</h2>
+                                    <a href="http://www.propertyprofessionalsportal.com/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/comcast.PNG" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-tile col-sm-4">
+                    <div class="work-tile-inner">
+                        <img class="thumbnail" src="public/images/lb.PNG" height="184px"/>
+                        <div class="work-tile-info" data-toggle="modal" data-target="#lbModal" data-backdrop="true" data-keyboard="true">
+                            <div class="work-tile-info-content">
+                                <b>Lagnachi Bolini</b>
+                                <br />
+                                <br /> Front-end: <span class="work-tag">React</span>
+                                <br /> Back-end: <span class="work-tag">NodeJS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="lbModal" class="modal fade">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Lagnachi Bolini</h2>
+                                    <a href="https://bitbucket.org/harshanooka/lagnichi-bolni" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
+                                    <a href="http://int-lbmegha.rhcloud.com/home" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="public/images/lb.PNG" class="modal-work-pic" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="testimonials" class="container-fluid">-->
+
+    <!--<div class="row">-->
+        <!--<div>-->
+            <!--<h1 class="section-title">Testimonials</h1>-->
+            <!--<hr />-->
+            <!--<div class="testimonials-wrapper clearfix">-->
+
+                <!--<p class="testimonials-content col-sm-8 sr-award">-->
+                    <!--“Limber is an elegant yet simple tool, which makes working with teams a breeze. Sophistication of the prodcut is clearly reflected in the passionate team which built it, the hard work and thought they have put in it.“-->
+                    <!--<br />-->
+                    <!--<br /> Rajendra Pawar, Chairman of NIIT</p>-->
+
+            <!--</div>-->
+
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+
+<section id="contact" class="container-fluid">
+
+    <div class="row">
+        <div>
+            <h1 class="section-title">Contact</h1>
+            <hr />
+            <div class="contact-wrapper clearfix">
+
+                <form action="MAILTO:gauravkorde0@gmail.com" method="post" enctype="text/plain">
+                    <input id="contact-name" name="contact-name" placeholder="Name" class="form-control" type="text" required>
+                    <input id="contact-mail" name="contact-mail" placeholder="Email Address" class="form-control" type="text" required>
+                    <textarea id="contact-message" name="contact-message" placeholder="Message" rows="8" class="form-control" required></textarea>
+                    <div class="btn-message-wrapper">
+                        <button id="btn-message" class="gh-btn" type="submit">Send Message</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2017
+        <br />Gaurav Korde
+    </p>
+</footer>
 </body>
+
+<script>
+    $(window).load(function() {
+        $('#page-loader').fadeOut(500);
+    });
+
+
+    $(document).ready(function() {
+
+        $(function() {
+            $(".typed").typed({
+                stringsElement: $("#typed-strings"),
+                typeSpeed: 10,
+                startDelay: 1000
+            });
+        });
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('.navbar-collapse a').click(function() {
+            $(".navbar-collapse").collapse('hide');
+        });
+
+        $(".nav a").on("click", function() {
+            $(".nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
+        });
+
+        $(".work-tile-inner").hover(function() {
+            $(this).find(".work-tile-info").fadeIn();
+        }, function() {
+            $(this).find(".work-tile-info").hide();
+        })
+
+        $('body').scrollspy({
+            target: '.navbar-custom'
+        });
+
+        window.sr = ScrollReveal();
+        sr.reveal('.sr-stack', {
+            duration: 600,
+            scale: 0.3,
+            distance: '0px'
+        }, 200);
+
+        sr.reveal('.sr-award', {
+            duration: 600,
+            scale: 0.3,
+            distance: '0px'
+        }, 200);
+
+    });
+</script>
 </html>
