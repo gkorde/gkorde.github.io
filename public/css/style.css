@@ -40,7 +40,7 @@ ul {
   background-color: black;
 }
 #intro {
-  background: rgba(0, 0, 0, 0.7) url('../images/hero2.jpg') no-repeat;
+  background: rgba(0, 0, 0, 0.7) url('../images/sunset.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -220,6 +220,7 @@ ul {
 }
 #portfolio .work-tile img {
   width: 100%;
+  max-height: 200px;
   cursor: pointer;
 }
 #portfolio .modal-title {
@@ -265,30 +266,7 @@ ul {
   color: black;
   cursor: pointer;
 }
-#testimonials {
-  background: rgba(0, 0, 0, 0.7) url('../images/handshake.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#testimonials .section-title {
-  color: white;
-}
-.testimonials-wrapper {
-  margin: auto;
-  width: 95%;
-  margin-bottom: 50px;
-}
-.testimonials-award {
-  width: 30%;
-}
-.testimonials-content {
-  padding: 30px 30px;
-  color: white;
-  font-size: 1.2em;
-  text-align: justify;
-  margin-top: 2%;
-  margin-left: 18%;
-}
+
 #contact .form-control {
   display: block;
   width: 70%;

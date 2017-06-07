@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gaurav Korde | Full Stack Developer</title>
     <link rel="stylesheet"  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script  src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script  src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script  src="public/js/lib/typed.min.js"></script>
     <script  src="public/js/lib/scrollreveal.min.js"></script>
     <link  href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -34,9 +34,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#intro">Intro</a>
                 </li>
-                <li><a href="#skills">My Stack</a>
+                <li><a href="#skills">Skills</a>
                 </li>
-                <li><a href="#portfolio">Portfolio</a>
+                <li><a href="#portfolio">My Projects</a>
                 </li>
                 <li><a href="#contact">Contact</a>
                 </li>
@@ -54,10 +54,14 @@
             <hr />
             <h1>WEB DEVELOPER</h1>
             <div id="typed-strings">
-                <p class="animated-typing">Hey there! I'm Gaurav Korde. I design websites.</p>
+                <p class="animated-typing">Hey there! I'm Gaurav Korde. I love developing applications.</p>
             </div>
             <div id="animated-typing-wrapper">
                 <span class="animated-typing typed"> </span>
+            </div>
+
+            <div class="gh-btn-wrapper">
+                <a href="#skills" class="gh-btn gh-btn-know">Find Out More</a>
             </div>
         </div>
     </div>
@@ -66,7 +70,7 @@
 <section id="skills" class="container-fluid">
     <div class="row">
         <div>
-            <h1 class="section-title">My Stack</h1>
+            <h1 class="section-title">Skills</h1>
             <hr />
 
             <div class="col-sm-4 text-center sr-stack">
@@ -224,201 +228,63 @@
 <section id="portfolio" class="container-fluid">
     <div class="row">
         <div>
-            <h1 class="section-title">Portfolio</h1>
+            <h1 class="section-title">My Projects</h1>
             <hr />
 
             <div class="work-tiles-wrapper">
                 <article class="work-tile col-sm-4">
                     <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/leadership.png" />
+                        <img class="thumbnail" src="public/images/movie1.jpg" />
                         <div class="work-tile-info" data-toggle="modal" data-target="#leadershipModal" data-backdrop="true" data-keyboard="true">
                             <div class="work-tile-info-content">
-                                <b>Leadership academy</b>
+                                <b>MovieFlix</b>
                                 <br />
-                                <br /> Front-end: <span class="work-tag">AngularJS</span>
-                                <br /> Back-end: <span class="work-tag">NodeJS</span>&nbsp;<span class="work-tag">MongoDB</span>
+                                <br /> Front-end: <span class="work-tag">AngularJS</span> <span class = "work-tag">Bootstrap</span>
+                                <br /> Back-end: <span class="work-tag">Spring</span> <span class="work-tag">Hibernate</span>&nbsp;<span class="work-tag">MySQL</span>
                             </div>
                         </div>
                     </div>
-
-                    <div id="leadershipModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Leadership academy</h2>
-                                    <a href="https://github.com/harshanooka/The-Leadership-Academy" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
-                                    <a href="http://theleadershipacademy.us/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/leadership.png" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </article>
 
                 <article class="work-tile col-sm-4">
                     <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/limber.png" />
+                        <img class="thumbnail" src="public/images/rail.jpg" />
                         <div class="work-tile-info" data-toggle="modal" data-target="#limberModal" data-backdrop="true" data-keyboard="true">
                             <div class="work-tile-info-content">
-                                <b>Limber</b>
+                                <b>Railway Reservation App</b>
                                 <br />
                                 <br /> Front-end: <span class="work-tag">AngularJS</span>&nbsp;<span class="work-tag">Bootstrap</span>&nbsp;<span class="work-tag">jQuery</span>
-                                <br /> Back-end: <span class="work-tag">NodeJS</span>&nbsp;<span class="work-tag">MongoDB</span>
+                                <br /> Back-end: <span class="work-tag">Spring</span> <span class="work-tag">Hibernate</span>&nbsp;<span class="work-tag">MySQL</span>
                             </div>
                         </div>
                     </div>
-
-                    <div id="limberModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Limber - Story Management tool</h2>
-                                    <a href="https://github.com/stackroute/frAgile" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
-                                    <a href="http://limber.stackroute.in/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/limber.png" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </article>
-                
+
                 <article class="work-tile col-sm-4">
                     <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/movieflix.png" />
+                        <img class="thumbnail" src="public/images/android-image.png" />
                         <div class="work-tile-info" data-toggle="modal" data-target="#movieflixModal" data-backdrop="true" data-keyboard="true">
                             <div class="work-tile-info-content">
-                                <b>Movieflix</b>
+                                <b>Android Messenger</b>
                                 <br />
-                                <br /> Front-end: <span class="work-tag">AngularJS</span>
+                                <br /><span class="work-tag">Java</span> <span class="work-tag">Android SDK</span>
                             </div>
                         </div>
                     </div>
-
-                    <div id="movieflixModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Movieflix</h2>
-                                    <a href="https://github.com/harshanooka/movieflix" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/movieflix.png" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </article>
 
                 <article class="work-tile col-sm-4">
                     <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/wfg.PNG" height="184px"/>
+                        <img class="thumbnail" src="public/images/File-transfer.jpg" height="184px"/>
                         <div class="work-tile-info" data-toggle="modal" data-target="#pulseModal" data-backdrop="true" data-keyboard="true">
                             <div class="work-tile-info-content">
-                                <b>Wells Fargo Interactive Demo</b>
+                                <b>P2P File Transfer Application</b>
                                 <br />
-                                <br /> Front-end: <span class="work-tag">AngularJS, Angular Bootstrap</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="pulseModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Wells Fargo Retirement Interactive Demo</h2>
-                                    <a href="https://retirement.wf.com/digital/#/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/wfg.PNG" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </article>
-
-                <article class="work-tile col-sm-4">
-                    <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/comcast.PNG" height="184px"/>
-                        <div class="work-tile-info" data-toggle="modal" data-target="#agricultureModal" data-backdrop="true" data-keyboard="true">
-                            <div class="work-tile-info-content">
-                                <b>Xfniity PP Portal</b>
-                                <br />
-                                <br /> Front-end: <span class="work-tag">React</span>
-                                <br /> Back-end: <span class="work-tag">NodeJS</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="agricultureModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Xfinity Property Professionals portal</h2>
-                                    <a href="http://www.propertyprofessionalsportal.com/" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/comcast.PNG" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
+                                <br /><span class="work-tag">C++</span> <span class="work-tag">UNIX</span>
                             </div>
                         </div>
                     </div>
                 </article>
-
-                <article class="work-tile col-sm-4">
-                    <div class="work-tile-inner">
-                        <img class="thumbnail" src="public/images/lb.PNG" height="184px"/>
-                        <div class="work-tile-info" data-toggle="modal" data-target="#lbModal" data-backdrop="true" data-keyboard="true">
-                            <div class="work-tile-info-content">
-                                <b>Lagnachi Bolini</b>
-                                <br />
-                                <br /> Front-end: <span class="work-tag">React</span>
-                                <br /> Back-end: <span class="work-tag">NodeJS</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="lbModal" class="modal fade">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title">Lagnachi Bolini</h2>
-                                    <a href="https://bitbucket.org/harshanooka/lagnichi-bolni" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="See code"><i class="fa fa-github " ></i></a>
-                                    <a href="http://int-lbmegha.rhcloud.com/home" target="_blank" class="modal-top-icons" data-toggle="tooltip" data-placement="top" title="Open Website"><i class="fa fa-reply " ></i></a>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="public/images/lb.PNG" class="modal-work-pic" />
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
             </div>
         </div>
     </div>
@@ -431,7 +297,6 @@
             <h1 class="section-title">Contact</h1>
             <hr />
             <div class="contact-wrapper clearfix">
-
                 <form action="MAILTO:gauravkorde0@gmail.com" method="post" enctype="text/plain">
                     <input id="contact-name" name="contact-name" placeholder="Name" class="form-control" type="text" required>
                     <input id="contact-mail" name="contact-mail" placeholder="Email Address" class="form-control" type="text" required>
@@ -440,7 +305,9 @@
                         <button id="btn-message" class="gh-btn" type="submit">Send Message</button>
                     </div>
                 </form>
+                <div>
 
+                </div>
 
             </div>
 
